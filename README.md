@@ -12,7 +12,6 @@ If you get any errors like "Bash: Command not found: python3"
 then you need to install python.
 1. install Homebrew at https://brew.sh
 2.  install Python3 with brew install python3
-3.  
 ___
 # Commands
 Run the installer:
