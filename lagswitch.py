@@ -29,15 +29,14 @@ import time
 import atexit
 
 # --- SCRIPT CONFIGURATION ---
-AUTHOR = "miles5746"
 HOTKEY = "f6"
 # ----------------------------
 
 # --- MACOS FIREWALL SETTINGS (DO NOT CHANGE) ---
 ANCHOR_NAME = "roblox_block"
-ANCHOR_FILE_PATH = f"/etc/pf.anchors/com.{AUTHOR}.roblox"
+ANCHOR_FILE_PATH = f"/etc/pf.anchors/com.miles5746.roblox"
 PF_CONF = "/etc/pf.conf"
-STATE_FILE = os.path.expanduser(f"~/.{AUTHOR}_lag_state") # State file in user's home directory
+STATE_FILE = os.path.expanduser(f"~/.miles5746_lag_state") # State file in user's home directory
 # -----------------------------------------------
 
 def run_setup():
@@ -48,7 +47,7 @@ def run_setup():
         print("[ERROR] Setup must be run with sudo. Command: sudo python3 lagswitch.py --setup")
         sys.exit(1)
 
-    print(f"[INFO] Running one-time setup by {AUTHOR}...")
+    print(f"[INFO] Running one-time setup by miles5746...")
 
     ANCHOR_RULE_1 = f"anchor \"{ANCHOR_NAME}\""
     ANCHOR_RULE_2 = f"load anchor \"{ANCHOR_NAME}\" from \"{ANCHOR_FILE_PATH}\""
@@ -117,7 +116,7 @@ def run_listener():
         print("[ERROR] Do not run the listener with sudo. Just run: python3 lagswitch.py")
         sys.exit(1)
 
-    print(f"--- Lag Switch Listener by {AUTHOR} ---")
+    print(f"--- Lag Switch Listener by miles5746 ---")
     
     script_path = os.path.abspath(__file__)
 
