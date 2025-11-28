@@ -5,7 +5,23 @@ This is only tested on macOS Tahoe 26.1, but may work on any other macOS.
 # Will you get banned for using this?
 Byfron (Roblox's anti cheat) will not detect this - if you use it to teleport around the map, Roblox will just think you are lagging. However, if you abuse this in games for tasks such as shooting people, you may get banned.
 
+# How do I set up and run this?
+First, download the install.sh, and run it in terminal with the commands mentioned later You may be prompted for your password, enter it if needed. For security, it won't show your password while typing. Once it finishes installing, you can run the script with the commands mentioned later.
 
-# ================================================================================================
+# Commands
+Run the install.sh:
+1. [cd Downloads]
+2. [chmod +x install.sh]
+3. [sudo sh install.sh]
+
+Run the Python script:
+___________
+1. [sudo python3 lagswitch.py]
+
+If you get an error like "Bash: Command not found: python3"
+then you need to install python.
+1. install Homebrew at [https://brew.sh]
+2.  install Python3 with [brew install python3]
+
+
 # IF YOU GET BANNED, OR YOUR ACCOUNT GETS MESSED UP IN ANY WAY, I AM NOT RESPONSIBLE AT ALL.
-# =================================================================================================
