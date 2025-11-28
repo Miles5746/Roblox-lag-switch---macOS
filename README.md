@@ -8,20 +8,22 @@ Byfron (Roblox's anti cheat) will not detect this - if you use it to teleport ar
 # How do I set up and run this?
 First, download the install.sh, and run it in terminal with the commands mentioned later You may be prompted for your password, enter it if needed. For security, it won't show your password while typing. Once it finishes installing, you can run the script with the commands mentioned later.
 
+___
 # Commands
 Run the install.sh:
-1. [cd Downloads]
-2. [chmod +x install.sh]
-3. [sudo sh install.sh]
+1. cd Downloads
+2. chmod +x install.sh
+3. sudo sh install.sh
 
+___
 Run the Python script:
-___________
-1. [sudo python3 lagswitch.py]
+1. sudo python3 lagswitch.py
 
+___
 If you get an error like "Bash: Command not found: python3"
 then you need to install python.
-1. install Homebrew at [https://brew.sh]
-2.  install Python3 with [brew install python3]
+1. install Homebrew at https://brew.sh
+2.  install Python3 with brew install python3
 
-
+___
 # IF YOU GET BANNED, OR YOUR ACCOUNT GETS MESSED UP IN ANY WAY, I AM NOT RESPONSIBLE AT ALL.
