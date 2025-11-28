@@ -14,10 +14,9 @@ then you need to install python.
 2.  install Python3 with brew install python3
 ___
 # Commands
-Run the installer:
-sudo python3 lagswitch.py --setup
+Run the installer (NOTE: Only do this step on the first time of running this script, you can skip every other time.):
+1. sudo python3 lagswitch.py --setup
 
-___
 Run the Python script:
 1. sudo python3 lagswitch.py
 
