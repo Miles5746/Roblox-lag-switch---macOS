@@ -1,2 +1,2 @@
-# Roblox-lag-switch---macOS
+# Roblox-lag-switch-macOS
 A python lag switcher for macOS.
